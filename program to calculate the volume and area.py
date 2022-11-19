@@ -12,3 +12,15 @@ elif x == "triangle" :
     tall = int(input("what is the tall of the triangle in meters ? \n == "))
     x = 1/2 * base * tall
     print("The area of the triangle is ", x , "m squared")
+elif x == "square" :
+    side = int(input("what is the side of the square in meters ? \n == "))
+    x = side * side
+    print("The area of the square is ", x , "m squared")
+elif x == "rectangular" :
+    length = int(input("what is the length of the rectangular in meters ? \n == "))
+    width = int(input("what is the width of the rectangular in meters ? \n == "))
+    x = width * length
+    print("The area of the triangle is ", x , "m squared")
+
+ """ Update everyday """
+
